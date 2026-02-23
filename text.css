@@ -1,0 +1,22 @@
+h3{
+    text-align: center;
+    text-decoration: underline;
+}
+#hihi{
+    text-align: right;
+    text-decoration: overline;
+    font-family: arial;
+}
+#ok{
+    text-align: left;
+    text-decoration: line-through;
+    font-family: georgia;
+}
+#haha {
+    text-align: left;
+    text-decoration: dotted underline;
+}
+#ullura{
+    text-align: center;
+    text-decoration: wavy underline red;
+}

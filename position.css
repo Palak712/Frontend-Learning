@@ -1,0 +1,39 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: cornflowerblue;
+    display: inline-block;
+    border: 3px dashed blue;
+}
+
+#box1{
+    position: static;
+    left: 20px;/* has no effect */
+}
+
+#box2{
+    position:relative;
+    left: 20px;
+    top: 10px;
+    z-index: 2;
+}
+
+#box3{
+    position:sticky;
+    top: 10px;
+    left:25px;
+}
+
+#box4{
+    position:fixed;
+    top: 0;
+    /* bottom:0;
+    width: 100%;
+    right:0; */
+}
+
+#box5 {
+    position: absolute;
+    top: 10px;
+    left: 250px;
+}

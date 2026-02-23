@@ -1,0 +1,16 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: cornflowerblue;
+    display: inline-block;
+    border: 3px solid ;
+}
+
+#box1{
+    background-image: url(cat.png);
+    /* background-size: auto */
+    /* background-size: cover; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}

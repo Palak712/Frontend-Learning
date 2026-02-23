@@ -1,0 +1,35 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    font-size: 12px;
+    border: 2px solid black;
+    /* transition-property: all;
+    transition-duration: 5s;
+    transition-timing-function: steps(3);
+    transition-delay:1s; */
+    transition: all 2s steps(3) 1s;
+    /* transform:rotate(45deg); */
+    /* transform: scale(2); */
+    /* transform: scale(1,2); */
+    /* transform: skew(45deg); */
+}
+
+div:hover{
+    background-color: blue;
+    color: pink;
+    font-size: 20px;
+    /* transform: rotate(90deg) scale(2,1) translate(200px); */
+}
+
+div:active{
+    background-color: green;
+}
+
+div:focus{
+    background-color: yellow;
+}/* used in form elements like input, textarea, select, button, etc. when they are focused (clicked or tabbed into). */
+
+div:visited{
+    background-color: red;
+}/* used for links that have been visited by the user. It applies styles to anchor (<a>) elements that have been clicked on and visited. */
