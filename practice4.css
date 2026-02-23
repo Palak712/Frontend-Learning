@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding:0;
+    color: white;
+}
+
+#navbar {
+    background-color: black;
+    padding: 10px 0px 24px 0px;
+}
+
+span {
+    margin-left:  60px;
+}
+
+a {
+    font-size: 25px;
+    color: orange;
+    text-decoration: none;
+    position: fixed;
+    left: 20px;
+    top: 5px;
+}
+
+#nav {
+    text-align: center;
+}
+
+input {
+    position: fixed;
+    right: 45px;
+}
+
+button {
+    color: white;
+    background-color: orange;
+    position: fixed;
+    right: 15px;
+}
+
+#header{
+    display: inline;
+}
+
+.contentBox{
+    height: 100px;
+    width: 100px;
+    color: black;
+    border:2px solid black;
+    display: inline-block;
+}
+
+#content{
+    height: 510px;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}

@@ -1,0 +1,38 @@
+/* for que 1
+div{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+} */
+body{
+    background-color: darkblue;
+}
+div{
+    background-color: black;
+    border:3px solid white;
+    padding:10px 0px 24px 0px;
+}
+span{
+    color:white;
+    margin:40px;
+}
+a{
+    font-size:25px;
+    color: orange;
+    position:fixed;
+    left:20px;
+}
+#hehe{
+    text-align:center;
+}
+input{
+    position: fixed;
+    right: 45px;
+}
+button{
+    color:white;
+    background-color: orange;
+    position: fixed;
+    right: 15px;
+}
